@@ -1,0 +1,5 @@
+constructor() {
+}
+ bookingRoom(x: int) {
+   
+ }
