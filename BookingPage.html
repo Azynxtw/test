@@ -1,8 +1,10 @@
-<p>Classroom<p>
+<h1>Classroom<h1>
 <*let room of rooms | async as >.
   <p>this.room</p>
-  <form>
-  <input type="checkbox" name="rooms" value="this.room.id"> <br>
-  <input type="submit" value="Submit">
-  </form>
+  <bottom click="bookingroom(this.room.id)">Booking this room</bottom>
+</let>
+  
+<h1>Your Booking</h1>
+<*let yourbooking of yourbookings | async as>
+<p>this.yourbooking<p>
 </let>
